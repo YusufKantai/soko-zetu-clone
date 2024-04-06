@@ -1,0 +1,224 @@
+*{  
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:  100%;
+    background-color: rgba(220, 217, 217, 0.671);
+    /* overflow: hidden; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    padding: 20px 3%;
+}
+header .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .left img{
+    height: 40px;
+    margin-right: 15px;
+}
+header .left h1{
+    font-size: 22px;
+}
+header .center{
+    text-align: left;
+    /* background-color: red; */
+    margin-left: -100px;
+    display: flex;
+    float: left;
+}
+header .center ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header .center ul li{
+    margin: 0px 30px;
+    color: black;
+    font-weight: bold;
+}
+header .right button{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.body{
+    align-items: center;
+}
+.body form{
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 40px;
+}
+form h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+form h1 i{
+    color: rgb(241, 169, 35);
+    font-size: 20px;
+    
+}
+form h1 span{
+    padding: 0px 7px;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.804);
+}
+form input{
+    width: 95%;
+    padding: 15px;
+    margin-top: -10px;
+    border: 1px solid rgba(220, 217, 217, 0.671);
+    border-radius: 10px;
+}
+form label{
+    display: flex;  
+    width: fit-content; 
+    margin-top: 10px;
+
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+form label i{
+    margin-left: 7px;
+    font-size: 15px;
+
+}
+form button{
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+form button  i{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #fff;
+    height: 50vh;
+    margin-top: 20vh;
+    padding-top: 50px;
+}
+footer .container{
+    width: 96%;
+    margin: auto;
+    
+}
+footer .top{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    justify-content: center; */
+
+    
+}
+footer .top .left{
+    display: flex;  
+    margin-top: 30px;  
+}
+
+footer .top .left img{
+    width: 34px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+footer .top .left .text h2{
+    font-size: 25px;
+    font-weight: 100;
+    color: black;
+}
+footer .top .left .text h4{
+    color: rgb(42, 42, 42);
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+
+footer .top .right{
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    margin-left: 50px;
+    width: 75%;
+  
+}
+footer .top .right .divs{
+    width: 50%;
+    margin: 10px auto;    
+}
+footer .top .right .divs h3{
+    font-weight: 500;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+footer .top .right .divs ul li{
+    font-size: 13px;
+    color: grey;
+    margin-top: 15px;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: 1px solid rgba(128, 128, 128, 0.358);
+    padding: 20px 0px;
+    cursor: pointer;
+}
+footer .bottom .left ul{
+    display: flex;
+    justify-content: space-between;
+   
+}
+footer .bottom .left ul li{
+    margin-right: 30px;
+    font-size: 13px ;
+    color: grey;
+}
+footer .bottom .right i{
+    font-size: 15px;
+    margin: 0px 10px;
+    color: grey;
+}
